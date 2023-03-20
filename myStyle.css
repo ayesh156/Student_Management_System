@@ -1,0 +1,321 @@
+.mSave {
+  margin-top: -1px !important;
+}
+
+.modal-content .text {
+  width: 100%;
+  padding: 0.9em 1em;
+  color: #777;
+  font-size: 15px;
+  outline: none;
+  font-weight: 400;
+  border: 1px solid #ddd;
+  margin: 0.3em 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn2 {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px
+}
+
+.btn2.active.focus,
+.btn2.active:focus,
+.btn2.focus,
+.btn2:active.focus,
+.btn2:active:focus,
+.btn2:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px
+}
+
+.btn2.focus,
+.btn2:focus,
+.btn2:hover {
+  color: #333;
+  text-decoration: none
+}
+
+.blue,
+.btn2:visited.blue {
+  color: #55acee;
+  border: 2px #55acee solid;
+}
+
+.blue:hover,
+.btn2:visited.blue:hover {
+  background-color: #55acee;
+  color: #fff
+}
+
+.green,
+.btn2:visited.green {
+  color: #2ecc71;
+  border: 2px #2ecc71 solid;
+}
+
+.green:hover,
+.btn2:visited.green:hover {
+  color: #fff;
+  background-color: #2ecc71;
+}
+
+.red,
+.btn2:visited.red {
+  color: #e74c3c;
+  border: 2px #e74c3c solid;
+}
+
+.red:hover,
+.btn2:visited.red:hover {
+  color: #fff;
+  background-color: #e74c3c;
+}
+
+.purple,
+.btn2:visited.purple {
+  color: #9b59b6;
+  border: 2px #9b59b6 solid;
+}
+
+.purple:hover,
+.btn2:visited.purple:hover {
+  color: #fff;
+  background-color: #9b59b6;
+}
+
+.orange,
+.btn2:visited.orange {
+  color: #e67e22;
+  border: 2px #e67e22 solid;
+}
+
+.orange:hover,
+.btn2:visited.orange:hover {
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.yellow,
+.btn2:visited.yellow {
+  color: #f1c40f;
+  border: 2px #f1c40f solid;
+}
+
+.yellow:hover,
+.btn2:visited.yellow:hover {
+  color: #fff;
+  background-color: #f1c40f;
+}
+
+
+.btn2.active,
+.btn2:active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
+}
+
+.btn2.disabled,
+.btn2[disabled],
+fieldset[disabled] .btn2 {
+  pointer-events: none;
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  opacity: .65
+}
+
+.search {
+  margin-top: -15px;
+  margin-bottom: 15px;
+  float: right;
+}
+
+.page-link {
+  cursor: pointer;
+}
+
+.disNone {
+  display: none !important;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.form-group1 input[type="date"] {
+  border: 1px solid #E9E9E9;
+  font-size: 0.9em;
+  width: 100%;
+  outline: none;
+  padding: 0.2em 1em;
+  color: #fff;
+  margin-top: 0.5em;
+  font-family: 'Roboto', sans-serif;
+}
+
+input.btn1 {
+  font-size: 0.9em;
+  color: #fff;
+  padding: 0.4em 1em;
+  margin-top: 1em;
+}
+
+.blue,
+.btn1:visited.blue {
+  color: #55acee;
+  border: 2px #55acee solid;
+}
+
+.blue:hover,
+.btn1:visited.blue:hover {
+  background-color: #55acee !important;
+  color: #fff !important
+}
+
+.green,
+.btn1:visited.green {
+  color: #2ecc71;
+  border: 2px #2ecc71 solid;
+}
+
+.green:hover,
+.btn1:visited.green:hover {
+  color: #fff;
+  background-color: #2ecc71;
+}
+
+.red,
+.btn1:visited.red {
+  color: #e74c3c;
+  border: 2px #e74c3c solid;
+}
+
+.red:hover,
+.btn1:visited.red:hover {
+  color: #fff;
+  background-color: #e74c3c;
+}
+
+.purple,
+.btn1:visited.purple {
+  color: #9b59b6;
+  border: 2px #9b59b6 solid;
+}
+
+.purple:hover,
+.btn1:visited.purple:hover {
+  color: #fff;
+  background-color: #9b59b6;
+}
+
+.orange,
+.btn1:visited.orange,
+.btn1:focus.orange, 
+.btn1:active.orange {
+  color: #e67e22 !important;
+  border: 2px #e67e22 solid !important;
+}
+
+.orange:hover,
+.btn1:visited.orange:hover {
+  color: #fff !important;
+  background-color: #e67e22 !important;
+}
+
+.yellow,
+.btn1:visited.yellow {
+  color: #f1c40f;
+  border: 2px #f1c40f solid;
+}
+
+.yellow:hover,
+.btn1:visited.yellow:hover {
+  color: #fff;
+  background-color: #f1c40f;
+}
+.atable {
+  margin-bottom: 40px;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+.mr-10 {
+  margin-right: 10px !important;
+}
+
+.mt--1 {
+  margin-top: -1px !important;
+}
+
+.i-group {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%
+}
+
+.form-group1 textarea {
+  background-color: #333;
+}
+
+.input1 {
+  padding: 0.5em 1em !important;
+  margin-top: 1px;
+}
+
+.text-dark {
+  color: #000 !important;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+}
+
+/* Invoice */
+
+.invoiceHeaderImage{
+  background-image: url("resource/logo.svg");
+  height: 80px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
